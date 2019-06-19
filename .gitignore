@@ -1,6 +1,8 @@
 # Compiled class file
 *.class
-
+.ask/
+node_modules
+*.iml
 # Log file
 *.log
 
