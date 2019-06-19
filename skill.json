@@ -1,0 +1,31 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "de-DE": {
+          "summary": "Kurzbeschreibung",
+          "examplePhrases": [
+            "Alexe öffne bonn hallo welt",
+            "hallo",
+            "hilfe"
+          ],
+          "name": "partick-bud",
+          "description": "Beschreibung"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom",
+          "uri": "ask-custom-partick-bud-default"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
