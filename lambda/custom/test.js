@@ -42,6 +42,6 @@ const getMockResponseBuilder = () => {
     return that;
 };
 
-let out = handler.HelloWorldIntentHandler.handle({responseBuilder: getMockResponseBuilder()});
+let out = handler.FinancialIntentHandler.handle({responseBuilder: getMockResponseBuilder()});
 
 console.log(out);
