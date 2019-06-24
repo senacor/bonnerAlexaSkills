@@ -1,7 +1,7 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "hallo welt bonn",
+      "invocationName": "postbank",
       "intents": [
         {
           "name": "AMAZON.CancelIntent",
@@ -18,7 +18,14 @@
         {
           "name": "HelloWorldIntent",
           "samples": [
-            "hello"
+            "vogel"
+          ]
+        },
+        {
+          "name": "FinancialIntent",
+          "samples": [
+            "mein Kontostand",
+            "meinen Kontostand"
           ]
         }
       ]
